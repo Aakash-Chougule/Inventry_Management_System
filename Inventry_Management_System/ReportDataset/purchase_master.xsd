@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="purchase_master" targetNamespace="http://tempuri.org/purchase_master.xsd" xmlns:mstns="http://tempuri.org/purchase_master.xsd" xmlns="http://tempuri.org/purchase_master.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="purchase_master" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="purchase_master" msprop:Generator_UserDSName="purchase_master">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="purchase_master" msprop:Generator_TableClassName="purchase_masterDataTable" msprop:Generator_TableVarName="tablepurchase_master" msprop:Generator_TablePropName="_purchase_master" msprop:Generator_RowDeletingName="purchase_masterRowDeleting" msprop:Generator_RowChangingName="purchase_masterRowChanging" msprop:Generator_RowEvHandlerName="purchase_masterRowChangeEventHandler" msprop:Generator_RowDeletedName="purchase_masterRowDeleted" msprop:Generator_UserTableName="purchase_master" msprop:Generator_RowChangedName="purchase_masterRowChanged" msprop:Generator_RowEvArgName="purchase_masterRowChangeEvent" msprop:Generator_RowClassName="purchase_masterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_BileNo" msprop:Generator_ColumnVarNameInTable="columnPurchase_BileNo" msprop:Generator_ColumnPropNameInRow="Purchase_BileNo" msprop:Generator_ColumnPropNameInTable="Purchase_BileNoColumn" msprop:Generator_UserColumnName="Purchase_BileNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_Vendor_Name" msprop:Generator_ColumnVarNameInTable="columnPurchase_Vendor_Name" msprop:Generator_ColumnPropNameInRow="Purchase_Vendor_Name" msprop:Generator_ColumnPropNameInTable="Purchase_Vendor_NameColumn" msprop:Generator_UserColumnName="Purchase_Vendor_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_Details" msprop:Generator_ColumnVarNameInTable="columnPurchase_Details" msprop:Generator_ColumnPropNameInRow="Purchase_Details" msprop:Generator_ColumnPropNameInTable="Purchase_DetailsColumn" msprop:Generator_UserColumnName="Purchase_Details" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_VendorCode" msprop:Generator_ColumnVarNameInTable="columnPurchase_VendorCode" msprop:Generator_ColumnPropNameInRow="Purchase_VendorCode" msprop:Generator_ColumnPropNameInTable="Purchase_VendorCodeColumn" msprop:Generator_UserColumnName="Purchase_VendorCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_Date" msprop:Generator_ColumnVarNameInTable="columnPurchase_Date" msprop:Generator_ColumnPropNameInRow="Purchase_Date" msprop:Generator_ColumnPropNameInTable="Purchase_DateColumn" msprop:Generator_UserColumnName="Purchase_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_Total" msprop:Generator_ColumnVarNameInTable="columnPurchase_Total" msprop:Generator_ColumnPropNameInRow="Purchase_Total" msprop:Generator_ColumnPropNameInTable="Purchase_TotalColumn" msprop:Generator_UserColumnName="Purchase_Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="purchase_details" targetNamespace="http://tempuri.org/purchase_details.xsd" xmlns:mstns="http://tempuri.org/purchase_details.xsd" xmlns="http://tempuri.org/purchase_details.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="purchase_details" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="purchase_details" msprop:Generator_UserDSName="purchase_details">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="purchase_details" msprop:Generator_TableClassName="purchase_detailsDataTable" msprop:Generator_TableVarName="tablepurchase_details" msprop:Generator_TablePropName="_purchase_details" msprop:Generator_RowDeletingName="purchase_detailsRowDeleting" msprop:Generator_RowChangingName="purchase_detailsRowChanging" msprop:Generator_RowEvHandlerName="purchase_detailsRowChangeEventHandler" msprop:Generator_RowDeletedName="purchase_detailsRowDeleted" msprop:Generator_UserTableName="purchase_details" msprop:Generator_RowChangedName="purchase_detailsRowChanged" msprop:Generator_RowEvArgName="purchase_detailsRowChangeEvent" msprop:Generator_RowClassName="purchase_detailsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_Id" msprop:Generator_ColumnVarNameInTable="columnPurchase_Id" msprop:Generator_ColumnPropNameInRow="Purchase_Id" msprop:Generator_ColumnPropNameInTable="Purchase_IdColumn" msprop:Generator_UserColumnName="Purchase_Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_MaterialId" msprop:Generator_ColumnVarNameInTable="columnPurchase_MaterialId" msprop:Generator_ColumnPropNameInRow="Purchase_MaterialId" msprop:Generator_ColumnPropNameInTable="Purchase_MaterialIdColumn" msprop:Generator_UserColumnName="Purchase_MaterialId" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_Quantity" msprop:Generator_ColumnVarNameInTable="columnPurchase_Quantity" msprop:Generator_ColumnPropNameInRow="Purchase_Quantity" msprop:Generator_ColumnPropNameInTable="Purchase_QuantityColumn" msprop:Generator_UserColumnName="Purchase_Quantity" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_Price" msprop:Generator_ColumnVarNameInTable="columnPurchase_Price" msprop:Generator_ColumnPropNameInRow="Purchase_Price" msprop:Generator_ColumnPropNameInTable="Purchase_PriceColumn" msprop:Generator_UserColumnName="Purchase_Price" type="xs:string" minOccurs="0" />
+              <xs:element name="Purchase_PricePerPice" msprop:Generator_ColumnVarNameInTable="columnPurchase_PricePerPice" msprop:Generator_ColumnPropNameInRow="Purchase_PricePerPice" msprop:Generator_ColumnPropNameInTable="Purchase_PricePerPiceColumn" msprop:Generator_UserColumnName="Purchase_PricePerPice" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

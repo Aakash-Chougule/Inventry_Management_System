@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="sales_master" targetNamespace="http://tempuri.org/sales_master.xsd" xmlns:mstns="http://tempuri.org/sales_master.xsd" xmlns="http://tempuri.org/sales_master.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="sales_master" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="sales_master" msprop:Generator_UserDSName="sales_master">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sales_master" msprop:Generator_TableClassName="sales_masterDataTable" msprop:Generator_TableVarName="tablesales_master" msprop:Generator_TablePropName="_sales_master" msprop:Generator_RowDeletingName="sales_masterRowDeleting" msprop:Generator_RowChangingName="sales_masterRowChanging" msprop:Generator_RowEvHandlerName="sales_masterRowChangeEventHandler" msprop:Generator_RowDeletedName="sales_masterRowDeleted" msprop:Generator_UserTableName="sales_master" msprop:Generator_RowChangedName="sales_masterRowChanged" msprop:Generator_RowEvArgName="sales_masterRowChangeEvent" msprop:Generator_RowClassName="sales_masterRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales_BileNo" msprop:Generator_ColumnVarNameInTable="columnSales_BileNo" msprop:Generator_ColumnPropNameInRow="Sales_BileNo" msprop:Generator_ColumnPropNameInTable="Sales_BileNoColumn" msprop:Generator_UserColumnName="Sales_BileNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales_Customer_Name" msprop:Generator_ColumnVarNameInTable="columnSales_Customer_Name" msprop:Generator_ColumnPropNameInRow="Sales_Customer_Name" msprop:Generator_ColumnPropNameInTable="Sales_Customer_NameColumn" msprop:Generator_UserColumnName="Sales_Customer_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales_Details" msprop:Generator_ColumnVarNameInTable="columnSales_Details" msprop:Generator_ColumnPropNameInRow="Sales_Details" msprop:Generator_ColumnPropNameInTable="Sales_DetailsColumn" msprop:Generator_UserColumnName="Sales_Details" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales_CustomerCode" msprop:Generator_ColumnVarNameInTable="columnSales_CustomerCode" msprop:Generator_ColumnPropNameInRow="Sales_CustomerCode" msprop:Generator_ColumnPropNameInTable="Sales_CustomerCodeColumn" msprop:Generator_UserColumnName="Sales_CustomerCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales_Date" msprop:Generator_ColumnVarNameInTable="columnSales_Date" msprop:Generator_ColumnPropNameInRow="Sales_Date" msprop:Generator_ColumnPropNameInTable="Sales_DateColumn" msprop:Generator_UserColumnName="Sales_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales_Total" msprop:Generator_ColumnVarNameInTable="columnSales_Total" msprop:Generator_ColumnPropNameInRow="Sales_Total" msprop:Generator_ColumnPropNameInTable="Sales_TotalColumn" msprop:Generator_UserColumnName="Sales_Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
